@@ -1,57 +1,114 @@
-/* nav styles */
-nav div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 50px 150px;
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-nav div h1 {
-  font-weight: 100px;
+body {
+  min-height: 100vh;
+}
 
-  font-size: 40px;
+/* navbar styles */
+.banner-container {
+  width: 1440px;
+  height: 700px;
+  background-image: url("Assets/Hero-bg.png");
+}
+.banner {
+  margin: 0 auto;
+
+  /* height: 150px; */
+  border: none;
+  width: 80%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* color */
+.color {
   color: #4e47ff;
-
-  font-weight: bold;
 }
 .btn {
   background-color: #4e47ff;
-  font-weight: 20px;
-  font-size: 20px;
-  color: white;
+  border-radius: 10px;
+  padding: 12px 36px;
+  color: #ffffff;
+  cursor: pointer;
   border: none;
-  padding: 18px 35px;
-  border-radius: 5px;
+  font-weight: bold;
 }
-
-/* banner */
-nav section p {
-  font-size: 50px;
+.banner h1 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
 }
-nav section {
+.banner-content {
   text-align: center;
+  margin: 150px 150px;
 }
-nav {
-  background-image: url("Assets/Hero-bg.png");
-  background-repeat: no-repeat;
-  width: 1440px;
-  height: 700px;
+.banner-content h3 {
+  font-size: 55px;
 }
-
-/* Action Section */
-.action-section {
+.banner-content button {
+  margin-top: 40px;
+}
+/* action styles  */
+.section {
+  margin: 116px 160px 116px 141px;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   gap: 220px;
 }
-.action {
-  font-size: 50px;
-}
-.action-p {
-  font-size: 20px;
+.section h2 {
+  font-size: 42px;
+  font-weight: bold;
   color: #252432;
+  margin-top: 60px;
 }
-.action-image {
-  width: 400px;
-  height: 330px;
-  border-radius: 45px;
+.section p {
+  font-size: 24px;
+  color: #252432;
+  margin-top: 23px;
+}
+.section button {
+  margin-top: 23px;
+  margin-bottom: 60px;
+}
+.section img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+/* user banner */
+.user-banner {
+  width: 80%;
+  margin: 0px auto 137px auto;
+  border-radius: 24px;
+  padding: 50px 80px;
+  background-color: #4e47ff10;
+}
+.user-banner h1 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+}
+.user-banner-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.user-banner-content h2 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+}
+.user-banner-content p {
+  font-size: 20px;
+  color: #00000050;
+  text-align: center;
 }
