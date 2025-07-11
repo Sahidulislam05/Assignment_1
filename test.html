@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Form</title>
+  <style>
+    body {
+      background-color: #f5f7ff;
+      font-family: Arial, sans-serif;
+    }
+    .wrapper {
+      width: 800px;   /* নির্দিষ্ট width */
+      margin: 50px auto;  /* ডান-বামে সামান্য মার্জিন */
+      display: flex;  /* H1 এবং Form পাশে থাকবে */
+      background: #f5f7ff;
+    }
+    .left {
+      width: 50%;    /* wrapper এর অর্ধেক */
+    }
+    .left h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0;
+      line-height: 1.2;
+      color: #000;
+    }
+    .right {
+      width: 50%;
+    }
+    form {
+      display: block;
+      margin-top: 20px;
+    }
+    form label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background: #fff;
+    }
+    form textarea {
+      height: 80px;
+    }
+    form button {
+      margin-top: 20px;
+      padding: 12px;
+      width: 100%;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      background-color: #4a40fd;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #3a32e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <h1>Let's Get in<br>Touch</h1>
+    </div>
+    <div class="right">
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@email.com" />
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="full name" />
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="write your message...."></textarea>
+
+        <button type="submit">Get in Touch</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
