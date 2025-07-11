@@ -116,7 +116,7 @@ body {
 .form-section {
   width: 80%;
   margin: 0px auto 14px auto;
-  padding: 71px 0px;
+
   background-color: beige;
   display: flex;
   justify-content: space-between;
@@ -147,8 +147,31 @@ body {
   margin-bottom: 24px;
   border: ;
 }
+
+/* form styles */
+.form-heading {
+  margin: 0px 150px;
+  width: 1140px;
+  height: 632px;
+  padding: 71px 0px;
+  display: flex;
+  background: #f5f7ff;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .form-header{
+  width: 50%;
+} */
+.form-heading form {
+  display: block;
+  /* margin-top: 20px; */
+}
+.form-header h1 {
+  font-size: 80px;
+}
 /* footer section */
 footer {
+  margin-top: 14px;
   padding: 104px 454px;
 }
 footer h1 {
